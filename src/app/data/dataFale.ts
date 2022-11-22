@@ -7,20 +7,20 @@ export const dataFake = [
   },
   {
     "id":"2",
-    "title":"saiu novo filme",
+    "title":"Filme de Mulher Maravilha será lançado agora em dezembro",
     "description":"ola",
-    "photoCover": ""
+    "photoCover": "https://s2.glbimg.com/pRea__KQJowWoWQv-79VjBkghno=/e.glbimg.com/og/ed/f/original/2017/05/24/gak.jpg"
   },
   {
     "id":"3",
-    "title":"saiu novo filme",
+    "title":"Novo filme do Pantera Negra",
     "description":"ola",
-    "photoCover": ""
+    "photoCover": "https://i0.wp.com/gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2022/11/capa-de-pantera-negra-2-imagem-divulgacao-marvel.jpg?resize=800%2C363&ssl=1"
   },
   {
     "id":"4",
-    "title":"saiu novo filme",
+    "title":"É anunciado novo filme do X-Man",
     "description":"ola",
-    "photoCover": ""
+    "photoCover": "https://i0.wp.com/oquartonerd.com.br/wp-content/uploads/2021/01/e6hWKhmXszRLNSvPRHizZ5.jpg?resize=1536%2C864&ssl=1"
   }
 ]
