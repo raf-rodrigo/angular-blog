@@ -1,0 +1,41 @@
+.container__big-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.25rem;
+  height: auto;
+}
+
+.big-card__picture {
+  display: flex;
+  justify-content: center;
+}
+
+.big-card__picture > img {
+  width: 80%;
+  min-width: 80%
+}
+
+.big-card__report {
+  margin-top: .5rem;
+}
+
+.big-card__report > span {
+  color: #797272;
+  font-size: 0.75rem;
+
+}
+
+.big-card__title {
+  margin-top: .9rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.big-card__content {
+  margin-top: .8rem;
+}
+
+.big-card__content > p {
+  font-size: .9rem;
+  color: #cccccc;
+}
