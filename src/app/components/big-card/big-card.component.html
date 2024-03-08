@@ -7,10 +7,10 @@
     <span>{{ cardReport }}</span>
   </div>
   <div class="big-card__title">
-    <h1>{{ cardTitle }}</h1>
+    <h1><a [routerLink]="['content', id]">{{ cardTitle }}</a></h1>
   </div>
   <div class="big-card__content">
-    <p>{{ cardContent }}</p>
+    <p><a [routerLink]="['content', id]">{{ cardContent }}</a></p>
   </div>
 
 </div>

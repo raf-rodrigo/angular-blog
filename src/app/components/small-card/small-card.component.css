@@ -32,7 +32,15 @@
   margin-bottom: 3%;
 }
 
+.small-card__title > h1 > a {
+  text-decoration: none;
+}
+
 .small-card__content > p {
   font-size: 0.75rem;
   color: #cdcdcd;
+}
+
+.small-card__content > p > a {
+  text-decoration: none;
 }

@@ -31,6 +31,11 @@
   font-size: 1rem;
   font-weight: 400;
 }
+
+.big-card__title > h1 > a {
+  text-decoration: none;
+}
+
 .big-card__content {
   margin-top: .8rem;
 }
@@ -38,4 +43,8 @@
 .big-card__content > p {
   font-size: .9rem;
   color: #cccccc;
+}
+
+.big-card__content > p > a {
+  text-decoration: none;
 }

@@ -4,6 +4,7 @@ import { BigCardComponent } from '../../components/big-card/big-card.component';
 import { MenuTitleComponent } from '../../components/menu-title/menu-title.component';
 import { SmallCardComponent } from '../../components/small-card/small-card.component';
 import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
+import { RouterLink } from '@angular/router';
 
 
 @Component({
@@ -12,7 +13,8 @@ import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
   imports: [MenuTitleComponent,
             BigCardComponent,
             SmallCardComponent,
-            MenuBarComponent
+            MenuBarComponent,
+            RouterLink
           ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
